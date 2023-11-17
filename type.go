@@ -158,3 +158,7 @@ type Iklan struct {
 	Description string `json:"description" bson:"description"`
 	Image       string `json:"image" bson:"image"`
 }
+
+type Reply struct {
+	Message string `bson:"messsage"`
+}
